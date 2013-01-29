@@ -17,6 +17,8 @@ XDG_CONFIG_HOME=~/.config/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git)
 
+export EDITOR=vim
+
 source $ZSH/oh-my-zsh.sh
 
 alias tmux="TERM=xterm-256color tmux"
@@ -52,6 +54,7 @@ alias :qall=exit
 
 # General aliases
 alias be="bundle exec"
+alias workon='nocorrect workon '
 
 export GOPATH=/home/jhoskins/dev/go
 
@@ -62,6 +65,7 @@ export PATH=$PATH:$GOPATH/bin
 export PATH="$HOME/.local/bin:$HOME/.rbenv/bin:$PATH"
 
 eval "$(rbenv init -)"
+
 
 # Source Powerlinej
 . $XDG_CONFIG_HOME/powerline/bindings/zsh/powerline.zsh

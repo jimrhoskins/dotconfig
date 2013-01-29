@@ -36,7 +36,7 @@
 				"name": "branch",
 				"exclude_modes": ["nc"],
 				"priority": 60,
-				"before": " ",
+				"before": "⚡ ",
 				"divider_highlight_group": "branch:divider"
 			},
 			{
@@ -96,7 +96,7 @@
 			},
 			{
 				"type": "string",
-				"contents": " ",
+				"contents": "➤ ",
 				"highlight_group": ["line_current_symbol", "line_current"]
 			},
 			{
